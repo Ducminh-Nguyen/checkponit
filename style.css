@@ -18,3 +18,8 @@
       height: 160px;
       object-fit: cover;
     }
+.m {
+    display: flex;
+    align-items: center;
+    
+}
