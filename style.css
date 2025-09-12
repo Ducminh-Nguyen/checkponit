@@ -23,3 +23,9 @@
     align-items: center;
     
 }
+.subtitle {
+    text-align: center;
+      color: #666;
+      margin-top: -10px;
+      margin-bottom: 30px;
+}
