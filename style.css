@@ -4,3 +4,7 @@
       justify-content: center;
       flex-wrap: wrap;
     }
+.new card {
+    width: 16;
+    height: 16;
+}
