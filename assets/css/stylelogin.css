@@ -1,0 +1,85 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+.container {
+      width: 700px;
+      background: #fff;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+.container-header {
+      background: #c62828;
+      color: #fff;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+.container-body {
+      display: flex;
+      padding: 20px;
+    }
+.left, .right {
+      flex: 1;
+      padding: 10px;
+    }
+.left {
+      border-right: 1px solid #ddd;
+    }
+.left input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+.left a {
+      color: #c62828;
+      text-decoration: none;
+      font-size: 14px;
+    }
+.right button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+.facebook {
+     background: #3b5998;
+ }
+.zalo { 
+    background: #0078ff; 
+}
+.google {
+    background: #db4437;
+ }
+.container-footer {
+      text-align: center;
+      padding: 15px;
+      border-top: 1px solid #ddd;
+    }
+.btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+.btn-login {
+      background: #c62828;
+      color: #fff;
+    }
+.btn-close {
+      background: #ddd;
+      margin-left: 10px;
+    }
